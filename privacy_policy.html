@@ -1,0 +1,34 @@
+# Create a simple HTML file for the privacy policy
+privacy_policy_content = """
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy</title>
+</head>
+<body>
+    <h1>Privacy Policy</h1>
+    <p>Questa skill raccoglie informazioni personali come nomi e dettagli di contatto solo se forniti dall'utente. Non condividiamo queste informazioni con terze parti.</p>
+    
+    <h2>Utilizzo delle Informazioni</h2>
+    <p>Le informazioni raccolte vengono utilizzate esclusivamente per fornire e migliorare i servizi della skill. Non utilizziamo le informazioni per altri scopi.</p>
+    
+    <h2>Protezione delle Informazioni</h2>
+    <p>Adottiamo misure di sicurezza per proteggere le informazioni personali degli utenti. Tuttavia, nessun metodo di trasmissione su Internet o metodo di archiviazione elettronica è completamente sicuro.</p>
+    
+    <h2>Modifiche alla Politica sulla Privacy</h2>
+    <p>Ci riserviamo il diritto di aggiornare questa politica sulla privacy in qualsiasi momento. Gli aggiornamenti saranno pubblicati su questa pagina.</p>
+    
+    <h2>Contattaci</h2>
+    <p>Per domande o commenti riguardanti questa politica sulla privacy, contattaci a: <a href="mailto:email@example.com">email@example.com</a></p>
+</body>
+</html>
+"""
+
+# Save the content to a file
+privacy_policy_path = "/mnt/data/privacy_policy.html"
+with open(privacy_policy_path, "w") as file:
+    file.write(privacy_policy_content)
+
+privacy_policy_path
